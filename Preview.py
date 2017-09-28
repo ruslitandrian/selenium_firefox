@@ -33,7 +33,7 @@ class Test1(unittest.TestCase):
         driver.find_element_by_id("txt_username").clear()
         driver.find_element_by_id("txt_username").send_keys("nicoletestno4@tutorabc.com")
         driver.find_element_by_id("txt_password").clear()
-        driver.find_element_by_id("txt_password").send_keys("tutorabc123")
+        driver.find_element_by_id("txt_password").send_keys("XXX")
         driver.find_element_by_css_selector("div.login_button > input[type=\"submit\"]").click()
         for i in range(60):
             try:
